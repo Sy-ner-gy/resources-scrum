@@ -3,7 +3,7 @@
 Aplicação para o sorteio das funções dos Scrum para a equipe Sy\ "ner:gy.
 
 ### Site para o sorteio:
-> <http://synergy2.epizy.com/scrum/>  
+> <http://synergy2.epizy.com/scrum/>
 
 
 
@@ -14,24 +14,24 @@ Aplicação para o sorteio das funções dos Scrum para a equipe Sy\ "ner:gy.
 ## Sintaxe
 
 ```
- "tipo"("Componente"): "ID" -descrição
+	"tipo"("Componente"): "ID" -descrição
 ```
 
 * Os valores possíveis para "tipo" são:
 
-  * **build:** usado quando é criado novo(s) arquivo(s) ou pasta(s);
+	* **build:** usado quando é criado novo(s) arquivo(s) ou pasta(s);
 
-  * **fix:** usado quando o commit é uma solução de um problema no código;
+	* **fix:** usado quando o commit é uma solução de um problema no código;
 
-  * **feat:** usado quando se adiciona um novo recurso;
+	* **feat:** usado quando se adiciona um novo recurso;
 
-  * **test:** usado quando se faz um teste de novo recurso (test é uma variante de feat);
+	* **test:** usado quando se faz um teste de novo recurso (test é uma variante de feat);
 
-  * **docs:** usado na criação ou alteração de documentação;
+	* **docs:** usado na criação ou alteração de documentação;
 
-  * **style:** usado quando se modifica o estilo do código ou se faz alguma correção ortográfica (mudança no código que não adiciona, modifica ou remove recurso);
+	* **style:** usado quando se modifica o estilo do código ou se faz alguma correção ortográfica (mudança no código que não adiciona, modifica ou remove recurso);
 
-  * **refactor:** usado quando se refatora o código;
+	* **refactor:** usado quando se refatora o código;
 
 
 * **"Componente":** Aqui se especifica o componente ou a estrutura trabalhada (seja o mais específico possível, evite macro-estruturas)
