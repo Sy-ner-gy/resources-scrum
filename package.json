@@ -1,6 +1,6 @@
 {
 	"name": "prize-draw-scrum",
-	"version": "0.2.2",
+	"version": "0.0.0",
 	"description": "Prize draw of the Scrum positions of the team",
 	"main": "index.js",
 
