@@ -1,0 +1,39 @@
+{
+	"name": "prize-draw-scrum",
+	"version": "0.1.0",
+	"description": "Prize draw of the Scrum positions of the team",
+	"main": "index.js",
+
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Sy-ner-gy/resources-scrum.git"
+	},
+	"keywords": [
+		"scrum",
+		"master",
+		"develop",
+		"methodology"
+	],
+	"author": "Synergy",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/Sy-ner-gy/resources-scrum/issues"
+	},
+	"homepage": "https://github.com/Sy-ner-gy/resources-scrum#readme",
+
+	"devDependencies": {
+		"autoprefixer": "^10.3.1",
+		"postcss": "^8.3.5",
+		"sass": "^1.35.2"
+	},
+	"dependencies": {
+		"autoprefixer": "^10.3.1",
+		"postcss": "^8.3.5",
+		"purgecss": "^4.0.3",
+		"postcss-cli": "^8.3.1",
+		"sass": "^1.35.2"
+	},
+	"scripts": {
+		"css-main": "sass main.scss:main.css && postcss main.css --replace --use autoprefixer"
+	}
+}
